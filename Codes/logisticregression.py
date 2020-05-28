@@ -74,4 +74,4 @@ cm = confusion_matrix(ytest, y_pred)
 
 print("Confusion Matrix : \n", cm)
 
-print("Accuracy : ", accuracy_score(y_test, y_pred))
+print("Accuracy : ", accuracy_score(ytest, y_pred))
